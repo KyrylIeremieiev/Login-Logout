@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    
+}
+
+.text{
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    width: 100%;
+    border: solid thin #aaa;
+}
+
+.button{
+    padding: 10px;
+    width: 100px;
+    color: white;
+    background: lightblue;
+    border: none;
+}
+
+#box{
+    background: gray;
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+    padding-right: 20px;
+}
+
+.LoginTitle{
+    font-size: 20px;
+    margin: 10px;
+}
