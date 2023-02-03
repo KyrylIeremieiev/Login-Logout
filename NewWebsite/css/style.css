@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    
+    background: #ECF9FF;
 }
 
 .text{
@@ -39,4 +39,65 @@ body{
 .LoginTitle{
     font-size: 20px;
     margin: 10px;
+}
+
+.LogoutButton{
+    color: black;
+    text-decoration: none;
+}
+
+.LogoutButton:hover{
+    color: #aaa;
+}
+
+.logout{
+    position: absolute;
+    display: none;
+}
+
+.buttonBox, .logout{ 
+    height: 10rem;
+    width: 20rem;    
+    padding: 30px;    
+    background: #FFE7CC;    
+    font-family: sans-serif; 
+    align-items: center;
+    justify-content: center;   
+}
+
+.buttonBox{
+    display: flex;
+}
+
+#button{
+
+    border: none;
+    border-radius: 0.5rem;
+    height: 100%;
+    width: 100%;
+    background: #FFE7CC;
+}
+
+#button:hover{
+    cursor: pointer;
+    color: #aaa;
+}
+
+header{
+    background: #FFFBEB;
+    height: 10rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    align-items: center;
+    font-size: 200%;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    font-size: 500%;
 }
