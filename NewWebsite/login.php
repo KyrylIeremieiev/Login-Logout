@@ -46,17 +46,17 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
     <title>Login</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div id="box">
+<body style="display:flex; justify-content:center; align-items:center; min-height:90vh; background:#FFFBEB;" >
+    <div id="box" style="background:#FFE7CC; border-radius:2rem;">
         <form method="post">
-            <div style="color:white;"class="LoginTitle">Login</div>
+            <div style="color:black;"class="LoginTitle">Login</div>
             
             <input class="text" type="text" name="user_name"><br><br>
             <input class="text" type="password" name="password"><br><br>
-            <input class="button "type="submit" value="Login"><br><br>
+            <input class="button "type="submit" value="Login" style="background:#ECF9FF color:black;"><br><br>
 
-            <a class="link"href="signup.php">Signup</a><br><br>
-        </form>
+            <a class="link"href="signup.php" style="text-decoration:none; color:black;">Signup</a><br><br>
+        </form> 
     </div>
 </body>
 </html>
